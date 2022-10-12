@@ -8,6 +8,9 @@ body {
     width: 100vw;
     justify-content: space-evenly;
     align-items: center;
+    font-weight: 100;
+    cursor: pointer;
+
 }
 h1 {
     margin: 0;
@@ -23,6 +26,7 @@ main {
 .screenOutput {
     text-align: right;
 }
+
 div {
     display: flex;
 }
@@ -53,7 +57,7 @@ body{
 main {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid red;
     padding: 5px;
     border-radius: 5px;
     background: white;
@@ -75,9 +79,9 @@ div {
 button {
     width: 4rem;
     height: 3rem;
-    background: red;
+    background: slategrey;
     border: 1px solid grey;
-    margin: 3px 3px 0px 3px;
+    margin: 3px 3px px 3px;
     border-radius: 5px;
 }
 
